@@ -1,0 +1,52 @@
+/*** Custom CSS Styling ***/
+
+/** Tags **/
+p {
+    margin: .5em auto;
+}
+
+span {
+    font-size: 10em;
+    color: #E4032E;
+}
+
+/** Classes **/
+.space {
+    position: relative;
+    top: 60px;
+}
+
+.darkbox {
+    background-color: #1E1E1E;
+    height: 300px;
+}
+
+.darkboxsm {
+    background-color: #1E1E1E;
+    height: 200px;
+}
+
+.row {
+    margin: 1.5em auto;
+}
+
+.headerbox {
+    border-right: thin solid darkgray;
+    border-bottom: thin solid darkgray;
+    padding: .5em;
+    height: 40px;
+}
+
+.gray {
+    background-color: darkgray;
+    padding: 1em;
+}
+
+/** IDs **/
+
+/** Media Queries **/
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .gray {
+        margin-top: 2%;
+    }
+}
